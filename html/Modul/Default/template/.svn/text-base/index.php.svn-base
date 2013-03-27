@@ -1,0 +1,47 @@
+<div id="doc">
+	<header id="branding">
+		<h1>
+			<?php echo $this->getTitle(); ?>
+		</h1>
+		<nav>
+			<h3>Servicenavigation</h3> 
+			<ul id="metanavi"> 
+				<li><strong>Startseite</strong></li> 
+				<li><a href="impressum.php">Impressum</a></li> 
+				<li><span>Partner</span></li> 
+				<li><a href="uebersicht.php">Übersicht</a></li> 
+			</ul> 
+		</nav>
+	</header>
+	<section id="content">
+	<?php echo $this->getContent(); ?>
+	</section>
+	<aside>
+		<nav class="box">
+			<h3>Sprachauswahl</h3> 
+			<ol> 
+				<li><a href="en/">english</a></li> 
+				<li><a href="no/">norge</a></li> 
+			</ol> 
+		</nav>
+		<nav class="box">
+			<h3>Hauptnavigation</h3> 
+			<ol id="mainnavi"> 
+				<li><a href="team/index.php">Das Team</a></li> 
+				<li><a href="camp/index.php">Das Camp</a></li> 
+				<li><a href="angebote/index.php">Die Angebote</a></li> 
+				<li><a href="reiseinfos/index.php">Die Reiseinfos</a></li>
+			</ol> 
+		</nav>
+	</aside>
+	<footer id="copyright">
+		<h3>Copyright</h3> 
+		<p>&copy; 2010 - hergestellt unter der Mithlife von <a href="http://www.re-design.de">RE-Design</a></p> 
+		<noscript> 
+			<p>Da ihr Browser den Sie benutzen keine JavaScript können einige Einbusen in der Benutzbarkeit dieser Website entstehen.</p> 
+		<!--[if lte IE 8]>
+			<p>Der Browser den Sie benutzen ist veraltet. Er besitzt bekannte Sicherheitsschwachstellen, bietet nur begrenzten Komfort und hat viele weitere Nachteile.</p>
+		<![endif]--> 
+		</noscript>
+	</footer>
+</div>
