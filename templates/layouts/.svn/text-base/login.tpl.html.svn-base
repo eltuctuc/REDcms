@@ -1,0 +1,9 @@
+<form action="##URL##" method="post">
+<fieldset>
+	<legend>Anmeldung</legend>
+	<p><label>Benutzername: <input name="user" id="user" type="text" /></label></p>
+	<p><label>Kennwort: <input name="password" id="password" type="text" /></label></p>
+	<p><button type="submit">anmelden</button></p>
+	<input type="hidden" name="request" value="##REQUEST##" />
+</fieldset>
+</form>

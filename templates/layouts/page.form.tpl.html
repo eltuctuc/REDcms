@@ -1,0 +1,43 @@
+<div class="page" id="page_##ID##">
+	<h2>##HEADLINE##</h2>
+	<form action="##URL##" method="post" class="add">
+	<fieldset>
+	<legend>Inhalt</legend>
+		<p>
+			<label for="title" class="before">Title</label>
+			<input type="text" name="title" id="title" value="##TITLE##" />
+		</p>
+		<p>
+			<label for="author" class="before">Autor</label>
+			<input type="text" name="author" id="author" value="##AUTHOR##" />
+		</p>
+		<p>
+			<label for="teaser" class="before">Einleitung</label>
+			<!-- <textarea name="teaser" id="teaser" rows="10" cols="45">##TEASER##</textarea> -->
+			##TEASEREDITOR##
+		</p>
+	</fieldset>
+	<fieldset>
+	<legend>Metaangaben</legend>
+		<p>
+			<label for="template" class="before">Template</label>
+			<input type="text" name="template" id="template" value="##TEMPLATE##" />
+		</p>
+		<p>
+			<label for="published" class="before">Veröffentlicht</label>
+			<select name="published" id="published">
+				<option value="1" ##CHECKED##>ja</option>
+				<option value="0" ##NOCHECKED##>nein</option>
+			</select>
+		</p>
+		<p>
+			<label for="access" class="before">Berechtigungslevel</label>
+			<input type="text" name="access" id="access" value="##ACCESS##" />
+		</p>
+	</fieldset>
+	<p><button type="submit">speichern</button></p>
+	<input type="hidden" name="id" id="id" value="##ID##" />
+	<input type="hidden" name="action" value="##ACTION##" />
+	<input type="hidden" name="request" value="##REQUEST##" />
+	</form>
+</div>

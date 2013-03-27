@@ -1,0 +1,49 @@
+<div class="menu" id="page_##ID##">
+	<h2>##HEADLINE##</h2>
+	<form action="##URL##" method="post" class="add">
+	<fieldset>
+	<legend>Link</legend>
+		<p>
+			<label for="name" class="before">Name</label>
+			<input type="text" name="name" id="name" value="##NAME##" />
+		</p>
+		<p>
+			<label for="title" class="before">Title</label>
+			<input type="text" name="title" id="title" value="##TITLE##" />
+		</p>
+	</fieldset>
+	<fieldset>
+	<legend>Verbindung</legend>
+		<p>
+			<label for="page_id" class="before">Seite</label>
+			<select name="page_id" id="page_id">
+			##PAGEID##
+			</select>
+		</p>
+		<p>
+			<label for="parent_id" class="before">Untermenü von</label>
+			<select name="parent_id" id="parent_id">
+			##PARENTID##
+			</select>
+		</p>
+	</fieldset>
+	<fieldset>
+	<legend>Metaangaben</legend>
+		<p>
+			<label for="published" class="before">Veröffentlicht</label>
+			<select name="published" id="published">
+				<option value="1" ##CHECKED##>ja</option>
+				<option value="0" ##NOCHECKED##>nein</option>
+			</select>
+		</p>
+		<p>
+			<label for="access" class="before">Berechtigungslevel</label>
+			<input type="text" name="access" id="access" value="##ACCESS##" />
+		</p>
+	</fieldset>
+	<p><button type="submit">speichern</button></p>
+	<input type="hidden" name="id" id="id" value="##ID##" />
+	<input type="hidden" name="action" value="##ACTION##" />
+	<input type="hidden" name="request" value="##REQUEST##" />
+	</form>
+</div>

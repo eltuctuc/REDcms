@@ -1,0 +1,13 @@
+<form action="##URL##" method="post">
+<fieldset>
+	<legend>##USERNAME##</legend>
+	<p>Sie sind angemeldet als <strong>##USERNAME##</strong>, um sich wieder abzumelden, klicken sie bitte auf den folgenden Link:</p>
+	<ul>
+		<li><a href="##URLPAGE##" class="page" title="neue Seite hinzufügen">neue Seite</a></li>
+		<li><a href="##URLBOX##" class="box" title="neue Box hinzufügen">neue Box</a></li>
+		<li><a href="##URLMENU##" class="menu" title="neuen Menüpunkt erstellen">neuer Menüpunkt</a></li>
+	</ul>
+	<p><button type="submit">abmelden</button></p>
+	<input type="hidden" name="request" value="##REQUEST##" />
+</fieldset>
+</form>

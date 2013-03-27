@@ -1,0 +1,11 @@
+RewriteEngine on
+Options +FollowSymLinks
+
+RewriteRule ^([a-z]+)/*$					index.php?mode=$1&id=1&action=show
+RewriteRule ^([a-z]+)/([0-9]+)/*$			index.php?mode=$1&id=$2&action=show
+RewriteRule ^([a-z]+)/([0-9]+)/([a-z]+)$	index.php?mode=$1&id=$2&action=$3
+
+<Files ~ "\.(ini)$">
+    Order allow,deny
+    Deny from all
+</Files>

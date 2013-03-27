@@ -1,0 +1,47 @@
+9
+
+dir
+1
+file:///C:/Users/Enrico/Repository/REDcms/ckfinder/core/connector/php/php4
+file:///C:/Users/Enrico/Repository/REDcms
+
+
+
+2008-11-30T17:24:37.302980Z
+1
+Enrico
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0
+
+Utils
+dir
+
+ErrorHandler
+dir
+
+Core
+dir
+
+CommandHandler
+dir
+

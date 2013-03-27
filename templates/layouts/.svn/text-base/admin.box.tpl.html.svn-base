@@ -1,0 +1,4 @@
+ <span class="adminBox">
+		<a href="##URLEDIT##" class="edit">##LINKEDIT##</a>
+		<a href="##URLDELETE##" class="delete">##LINKDELETE##</a>
+</span>

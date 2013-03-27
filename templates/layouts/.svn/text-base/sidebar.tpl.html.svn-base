@@ -1,0 +1,11 @@
+<h3>Sidebar</h3>
+<div class="box" id="navigation">
+	##NAVIGATION##
+</div>
+<div class="box" id="login">
+	##LOGIN##
+</div>
+<div class="box" id="about_us">
+	<h4>Über das Projekt</h4>
+	<p>Die ist nur ein kleines CMS-Beispiel. Ich hoffe ihr habt Spaß dieses zu benutzen. Falls ihr Fehler findet dann schreibt eine Nachricht an: <a href="mailto:enrico@re-design.de" class="nowrap">enrico@re-design.de</a></p>
+</div>

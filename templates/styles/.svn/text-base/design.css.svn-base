@@ -1,0 +1,189 @@
+body {
+	color: #FFF;
+	background-color: #CCC;
+	font: 14px/1.4em "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+input:focus, textarea:focus, select:focus {
+	color: #000;
+	background: #fff;
+	border: 1px solid red;
+}
+.adminBox {
+	white-space: nowrap;
+}
+	.adminBox a {
+	}
+	.adminBox a:hover,
+	.adminBox a:focus {
+		outline: 1px solid #C00;
+	}
+#page {
+	color: #000;
+	background-color: #FFF;
+}
+#branding {
+	background-color: #333;
+	color: #FFF;
+	font-family: Georgia,"Time New Roman", Times, serif;
+	font-style: italic;
+}
+	#branding h1 {
+		font-size: 3em;
+		line-height: 1em;
+	}
+	#branding h2 {
+		font-size: 1.5em;
+		line-height: 1em;
+		color: #3C0;
+	}
+#content {
+}
+	#content h2, #content h3, #content h4, #content h5, #content h6 {
+		font-family: Georgia,"Time New Roman", Times, serif;
+		font-style: italic;
+		line-height: 1em;
+		margin-bottom:0.5em;
+	}
+	#content h2 {
+		font-size: 2em;
+	}
+	#content h3 {
+		font-size: 1.4em;
+	}
+	#content h4 {
+		font-size: 1.2em;
+	}
+	#content h5 {
+		font-size: 1.1em;
+	}
+	#content h6 {
+		font-size: 1em;
+	}
+	#content p {
+		margin-bottom: 1em;
+		text-align: justify;
+	}
+	#content div.more {
+		margin-bottom: 1em;
+		text-align: right;
+	}
+	#content ul.meta {
+		font-size: 0.8em;
+	}
+		#content ul.meta li {
+			margin-bottom: 0.5em;
+		}
+	
+	#content .page {
+	}
+		#content .page .add {
+		}
+			#content .add fieldset {
+				border: 1px solid #333;
+				padding: 5px;
+				margin-bottom: 1em;
+			}
+			#content .add legend {
+				border: 1px solid #333;
+				background-color: #CCC;
+				padding: 0 1em;
+			}
+			#content .add label {
+				font-size: 0.8em;
+			}
+			#content .add label.before {
+				display: block;
+			}
+			#content .add input,
+			#content .add textarea {
+				width: 470px;
+				font-family: sans-serif;
+				font-size: 1em;
+				padding: 5px;
+			}
+			#content .add option:hover {
+				background-color: #CCC;
+			}
+#sidebar {
+}
+	#sidebar .box {
+		border:1px solid;
+		margin-bottom: 1em;
+	}
+		#sidebar .box h4 {
+			background-color:#333;
+			color: #FFF;
+			text-align: center;
+			margin-bottom: 0.2em;
+		}
+		#sidebar #navigation {
+		}
+			#sidebar #navigation ul {
+				margin: 5px 5px 1em 5px;
+			}
+				#sidebar #navigation ul ul {
+					margin: 0 0  0 1.5em;
+				}
+		#sidebar #login {
+		}
+			#sidebar #login p {
+				font-size: 0.8em;
+				margin: 5px;
+			}
+			#sidebar #login legend {
+				font-style: italic;
+				margin: 0;
+				padding: 0;
+				text-transform: uppercase;
+			}
+			#sidebar #login strong {
+				font-weight: bold;
+				text-transform: uppercase;
+			}
+			#sidebar #login ul {
+				margin: 5px;
+			}
+				#sidebar #login a {
+					padding-left: 20px;
+				}
+				#sidebar #login .page {
+					background: transparent url("/REDcms/templates/images/icons/page.png") no-repeat;
+				}
+				#sidebar #login .box {
+					background: transparent url("/REDcms/templates/images/icons/box.png") no-repeat;
+					border: none;
+				}
+				#sidebar #login .menu {
+					background: transparent url("/REDcms/templates/images/icons/menu.png") no-repeat;
+				}
+		#sidebar #about_us {
+		}
+			#sidebar #about_us p {
+				font-size: 0.8em;
+				margin: 5px;
+			}
+	
+#copyright {
+	background-color: #333;
+	color: #FFF;
+}
+
+/*-------------------------------------------*/
+.nowrap {
+	white-space: nowrap;
+}
+.clear {
+	clear: both;
+}
+.debug {
+	position:absolute;
+	width: 300px;
+	height: 400px;
+	overflow: auto;
+	text-align: left;
+	padding: 5px;
+	color: #FFF;
+	background-color: #300;
+	border: 1px solid #000;
+}

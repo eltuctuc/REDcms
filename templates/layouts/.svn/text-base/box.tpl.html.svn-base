@@ -1,0 +1,8 @@
+<div class="teaserbox" id="box_##ID##">
+	<h3>##TITLE## ##ADMIN##</h3>
+	<ul class="meta">
+		<li>##MODIFIED##</li>
+	</ul>
+	<div class="teaser">##TEASER##</div>
+	<div class="body">##BODY##</div>
+</div>
